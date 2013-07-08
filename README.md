@@ -1,6 +1,9 @@
 ## No Media
 
-Remove media queries with rework.
+Unwrap media queries with rework.
+
+Removes media queries around rules, placing those rules in the same location as before, but at the root scope instead.
+Useful for e.g. providing alternate stylesheets to older browsers in a mobile-first design.
 
 ### API
 
