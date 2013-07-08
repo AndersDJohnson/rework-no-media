@@ -1,0 +1,27 @@
+body {
+  color: orange;
+}
+
+@media print {
+  body {
+    color: black;
+  }
+}
+
+body {
+  color: yellow;
+}
+
+body {
+  color: red;
+}
+
+@media print and (min-width: 100px) {
+  body {
+    color: green;
+  }
+}
+
+body {
+  color: purple;
+}

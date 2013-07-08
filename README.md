@@ -13,6 +13,12 @@ var css = rework(inputCSS)
 .toString()
 ```
 
+#### noMedia([options])
+
+`options` (object) - An optional options object.
+
+`options.skipPrint` (boolean) (default: true) - Skip rewriting media queries containing `print` rules.
+
 ### License
 
 The MIT License (MIT)

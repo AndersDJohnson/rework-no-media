@@ -1,0 +1,33 @@
+@media (max-width: 300px) {
+  body {
+    color: orange;
+  }
+}
+
+@media print {
+  body {
+    color: black;
+  }
+}
+
+body {
+  color: yellow;
+}
+
+@media (min-width: 100px) {
+  body {
+    color: red;
+  }
+}
+
+@media print and (min-width: 100px) {
+  body {
+    color: green;
+  }
+}
+
+@media (min-width: 100px) {
+  body {
+    color: purple;
+  }
+}
