@@ -1,0 +1,24 @@
+{
+  "name": "rework-no-media",
+  "version": "0.1.0",
+  "description": "Remove media queries with rework.",
+  "author": "Anders D. Johnson",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adjohnson916/rework-no-media.git"
+  },
+  "peerDependencies": {
+    "rework": "~0.17.1"
+  },
+  "dependencies": {
+    "rework": "~0.17.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "should": "~1.2.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter spec"
+  }
+}
