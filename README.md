@@ -1,6 +1,9 @@
-## No Media
+## Rework - No Media
 
-Unwrap media queries with rework.
+[![NPM version](https://badge.fury.io/js/rework-no-media.png)](http://badge.fury.io/js/rework-no-media)
+[![NPM dependencies](https://david-dm.org/AndersDJohnson/rework-no-media.png)](https://david-dm.org/AndersDJohnson/rework-no-media)
+
+> Unwrap media queries with rework.
 
 Removes media queries around rules, placing those rules in the same location as before, but at the root scope instead.
 Useful for e.g. providing alternate stylesheets to older browsers in a mobile-first design.
