@@ -8,14 +8,14 @@
     "url": "git://github.com/AndersDJohnson/rework-no-media.git"
   },
   "peerDependencies": {
-    "rework": "~0.17.1"
+    "rework": "~0.18.0"
   },
   "dependencies": {
-    "rework": "~0.17.1"
+    "rework": "~0.18.0"
   },
   "devDependencies": {
-    "mocha": "~1.12.0",
-    "should": "~1.2.2"
+    "mocha": "~1.13.0",
+    "should": "~1.3.0"
   },
   "main": "index.js",
   "scripts": {

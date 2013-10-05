@@ -1,5 +1,6 @@
 var rework = require('rework')
   , noMedia = require('..')
+  , should = require('should')
   , fs = require('fs')
   , assert = require('assert')
   , read = fs.readFileSync;
