@@ -6,7 +6,7 @@
 > Unwrap media queries with rework.
 
 Removes media queries around rules, placing those rules in the same location as before, but at the root scope instead.
-Useful for e.g. providing alternate stylesheets to older browsers in a mobile-first design.
+Useful for e.g. providing alternate stylesheets to older browsers in a mobile-first design, as an alternative to media query polyfills like [Respond](https://github.com/scottjehl/Respond) or [css3-mediaqueries-js](https://code.google.com/p/css3-mediaqueries-js/).
 
 See `test/fixtures` for examples.
 
