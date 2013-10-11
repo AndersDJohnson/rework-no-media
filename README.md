@@ -3,10 +3,11 @@
 [![NPM version](https://badge.fury.io/js/rework-no-media.png)](http://badge.fury.io/js/rework-no-media)
 [![NPM dependencies](https://david-dm.org/adjohnson916/rework-no-media.png)](https://david-dm.org/adjohnson916/rework-no-media)
 
-> Unwrap media queries with rework.
+> Unwrap media queries with [rework].
 
-Removes media queries around rules, placing those rules in the same location as before, but at the root scope instead.
-Useful for e.g. providing alternate stylesheets to older browsers in a mobile-first design, as an alternative to media query polyfills like [Respond](https://github.com/scottjehl/Respond) or [css3-mediaqueries-js](https://code.google.com/p/css3-mediaqueries-js/).
+Using [rework], removes media queries around rule sets, elevating them to the root scope.
+
+Useful for e.g. providing alternate stylesheets to older browsers in a mobile-first design, as an alternative to buggy and client-side heavy JavaScript media query polyfills like [Respond](https://github.com/scottjehl/Respond) or [css3-mediaqueries-js](https://code.google.com/p/css3-mediaqueries-js/).
 
 See `test/fixtures` for examples.
 
@@ -50,3 +51,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+[rework]: https://github.com/visionmedia/rework
