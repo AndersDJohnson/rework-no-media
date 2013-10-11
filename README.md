@@ -2,6 +2,7 @@
 
 [![NPM version](https://badge.fury.io/js/rework-no-media.png)](http://badge.fury.io/js/rework-no-media)
 [![NPM dependencies](https://david-dm.org/adjohnson916/rework-no-media.png)](https://david-dm.org/adjohnson916/rework-no-media)
+[![Build Status](https://travis-ci.org/adjohnson916/rework-no-media.png)](https://travis-ci.org/adjohnson916/rework-no-media)
 
 > Unwrap media queries with [rework].
 
