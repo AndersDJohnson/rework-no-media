@@ -12,6 +12,14 @@ Useful for e.g. providing alternate stylesheets to older browsers in a mobile-fi
 
 See `test/fixtures` for examples.
 
+### Install
+
+via npm:
+
+```bash
+$ npm install --save rework-no-media
+```
+
 ### API
 
 ```js
